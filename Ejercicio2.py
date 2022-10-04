@@ -1,5 +1,5 @@
 print('Introduce tu nombre completo:')
 nombre = input()
 print('En minuscula:', nombre.lower())
-print('En minuscula:', nombre.upper())
-print('En minuscula:', nombre.title())
+print('En mayuscula:', nombre.upper())
+print('La primera mayuscula:', nombre.title())
