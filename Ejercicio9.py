@@ -1,0 +1,6 @@
+print('Introduce la fecha con el formato dd/mm/aaaa:')
+fecha = input()
+partido = fecha.split('/')
+print('Dia:', partido[0])
+print('Mes:', partido[1])
+print('Ano:', partido[2])
