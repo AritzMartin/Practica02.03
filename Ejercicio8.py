@@ -1,0 +1,5 @@
+print('Introduzca el precio del producto con dos decimales:')
+precio = input()
+separacion = precio.split('.')
+print('Euros:', separacion[0])
+print('Centimos:', separacion[1])
